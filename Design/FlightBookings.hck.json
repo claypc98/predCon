@@ -864,6 +864,30 @@
                     "GUID": "7e0462c3-37f3-11ec-8866-8b7656a20503",
                     "required": true,
                     "error": {}
+                },
+                {
+                    "name": "asd",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "mode": "integer",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey",
+                        "triggerUpdateColumns"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "triggerUpdateColumns": false,
+                    "GUID": "8bab20d0-aa9c-4053-a226-39b544ddd5a3",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -2540,7 +2564,8 @@
         "1fd19180-4b69-11ec-ae71-d5c74b0d4990": "street",
         "22ac9df0-4b69-11ec-ae71-d5c74b0d4990": "city",
         "255bb860-4b69-11ec-ae71-d5c74b0d4990": "state",
-        "27074580-4b69-11ec-ae71-d5c74b0d4990": "zip"
+        "27074580-4b69-11ec-ae71-d5c74b0d4990": "zip",
+        "8bab20d0-aa9c-4053-a226-39b544ddd5a3": "asd"
     },
     "definitions": {
         "type": "definitions",
@@ -2574,7 +2599,7 @@
         }
     },
     "description": "Derived from https://postgrespro.com/education/demodb",
-    "lastModifTS": "2022-10-17T20:40:41.612Z",
+    "lastModifTS": "2022-10-17T20:45:32.732Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2625,8 +2650,8 @@
                         "GUID": "7e043bb2-37f3-11ec-8866-8b7656a20503",
                         "x": 96,
                         "y": 198.03547200929285,
-                        "width": 308,
-                        "height": 84,
+                        "width": 316,
+                        "height": 105,
                         "color": {}
                     },
                     {
