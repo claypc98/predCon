@@ -1,5 +1,5 @@
 {
-    "modelName": "Flight bookings",
+    "modelName": "Flight Bookings",
     "collections": [
         {
             "collectionName": "aircrafts_data",
