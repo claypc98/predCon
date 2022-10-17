@@ -1203,33 +1203,6 @@
                     "GUID": "7e03786c-37f3-11ec-8866-8b7656a20503",
                     "required": false,
                     "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "actual_arrival",
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "unique": false,
-                    "mode": "timestamp",
-                    "scale": 7,
-                    "childType": "datetime",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePartitionKey": false,
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "timePrecision": "",
-                    "udt_name": "timestamptz",
-                    "numberOfArrayDimensions": 0,
-                    "description": "Actual arrival time",
-                    "timezone": "WITH TIME ZONE",
-                    "GUID": "7e03786d-37f3-11ec-8866-8b7656a20503",
-                    "required": false,
-                    "error": {}
                 }
             ],
             "definitions": {
@@ -2236,7 +2209,10 @@
             "viewOn": "",
             "type": "object",
             "properties": [],
-            "GUID": "7e0a2f20-37f3-11ec-8866-8b7656a20503"
+            "GUID": "7e0a2f20-37f3-11ec-8866-8b7656a20503",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "airports",
@@ -2255,7 +2231,10 @@
             "viewOn": "",
             "type": "object",
             "properties": [],
-            "GUID": "7e0aa450-37f3-11ec-8866-8b7656a20503"
+            "GUID": "7e0aa450-37f3-11ec-8866-8b7656a20503",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "flights_v",
@@ -2274,7 +2253,10 @@
             "viewOn": "",
             "type": "object",
             "properties": [],
-            "GUID": "7e0b4090-37f3-11ec-8866-8b7656a20503"
+            "GUID": "7e0b4090-37f3-11ec-8866-8b7656a20503",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "routes",
@@ -2293,7 +2275,10 @@
             "viewOn": "",
             "type": "object",
             "properties": [],
-            "GUID": "7e0b8eb0-37f3-11ec-8866-8b7656a20503"
+            "GUID": "7e0b8eb0-37f3-11ec-8866-8b7656a20503",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "relationships": [
@@ -2512,7 +2497,6 @@
         "7e03786a-37f3-11ec-8866-8b7656a20503": "status",
         "7e03786b-37f3-11ec-8866-8b7656a20503": "aircraft_code",
         "7e03786c-37f3-11ec-8866-8b7656a20503": "actual_departure",
-        "7e03786d-37f3-11ec-8866-8b7656a20503": "actual_arrival",
         "7e037862-37f3-11ec-8866-8b7656a20503": "flights",
         "7e0462c1-37f3-11ec-8866-8b7656a20503": "book_ref",
         "7e0462c2-37f3-11ec-8866-8b7656a20503": "book_date",
@@ -2590,16 +2574,16 @@
         }
     },
     "description": "Derived from https://postgrespro.com/education/demodb",
-    "lastModifTS": "2022-03-30T08:28:49.620Z",
+    "lastModifTS": "2022-10-17T20:40:41.612Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "PostgreSQL",
-        "pluginVersion": "0.1.17",
+        "pluginVersion": "0.1.27",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.0"
+        "version": "6.5.5"
     },
     "settings": {
         "centralPane": {
@@ -2633,8 +2617,8 @@
                         "GUID": "7e037862-37f3-11ec-8866-8b7656a20503",
                         "x": 441.75,
                         "y": 432,
-                        "width": 347,
-                        "height": 210,
+                        "width": 355,
+                        "height": 195,
                         "color": {}
                     },
                     {
